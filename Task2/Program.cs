@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 namespace Task2
 {
 
-    
+    ///Module 9.6.1 (HW-03) - Task 2
     public class InvalidNameException : Exception
         {
             public InvalidNameException(string message) : base(message) { }
